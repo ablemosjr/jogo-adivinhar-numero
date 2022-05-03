@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body { background: rgba(65, 99, 73, 0.747); }
+
+header {
+    padding: 20px;
+    letter-spacing: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    width: 400px;
+    height: 290px;
+    box-shadow: 6px 8px 10px black;
+}
+
+div { font: normal 16px Arial; }
+
+#regras { 
+    font: bold 14px Arial; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#numb { width: 80px; }
+
+#pAnt { margin-top: 15px; }
+
+#pGame {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#pAoB { margin-top: 10px; }
+
+footer {
+    padding: 30px;
+    text-align: center;
+    font: bold 12px Arial;
+    color: white;
+}
+

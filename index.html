@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da adivinhação</title>
+    
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
+
+    <!--Google Fonts API -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Jogo - Adivinhe o Número</h1>
+    </header>
+    <section>
+        <div>Selecionamos um número de 1 a 100.<br><br>
+        Nós lhe diremos se seu palpite está com valor alto ou baixo!
+            <div id = 'regras'>Regra: Tente adivihar em 10 chances ou menos!!
+            </div>
+        </div>
+
+        <div><br>Digite seu número: <input type="number" id = 'numb' class = 'numb'>
+        <input type="button" value="Enviar palpite" id = 'btnPalpite' class = 'btnPalpite' onclick= 'addNum()'>
+        </div>
+
+        <div id = 'resp'>
+        <p id = 'pAnt'>
+        </p>
+
+        <p id = 'pGame'>
+        </p>  
+
+        <p id = 'pAoB'>
+        </p>
+        </div>
+    </section>
+</body>
+</html>
